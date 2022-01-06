@@ -1,5 +1,7 @@
 # neovim
-My neovim configuration used on MacOS and Linux
+My neovim configuration used on MacOS and Linux.
+
+The purpose of this repository is to keep my personal setup similar accross devices. Installation instructions are mostly for me personally (as a sort of memo), but they might work for others as well so added them to the readme.
 
 ## Requirements
 - [Neovim nightly](https://github.com/neovim/neovim/releases) build

@@ -22,6 +22,8 @@ To make language servers work, one should install language servers one wished to
 - [bashls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bashls)
 - [vimls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vimls)
 
+[Full list](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md) of possible server configurations and their installation instructions.
+
 These are taken into use in the file `lsp/lsp.lua`:
 ```
 local servers = {'gopls', 'golangci_lint_ls', 'angularls', 'cssls', 'html', 'tsserver', 'bashls', 'vimls' }
@@ -35,7 +37,7 @@ If you don't want to use for example the Go language servers, just don't install
 >For go language servers: make sure `$GOPATH/bin is in your $PATH`
 
 ## Installation
-Drop the contents of this repo to ~/.config/nvim
+Drop the contents of this repo to `~/.config/nvim`
 
 Run `lsp_install_npm.sh` (sudo because npm is ran with `-g` flag) to install all language servers installed via npm.
 

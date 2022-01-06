@@ -1,0 +1,32 @@
+GO LANGUAGE SERVER
+go install golang.org/x/tools/gopls@latest
+require'lspconfig'.gopls.setup{}
+
+ANGULARLS
+npm install -g @angular/language-server
+require'lspconfig'.angularls.setup{}
+
+CSS, HTML
+npm i -g vscode-langservers-extracted
+require'lspconfig'.cssls.setup {
+  capabilities = capabilities,
+}
+require'lspconfig'.html.setup {
+  capabilities = capabilities,
+}
+
+PYRIGHT
+pip install pyright
+require'lspconfig'.pyright.setup{}
+
+TSSERVER
+npm install -g typescript typescript-language-server
+require'lspconfig'.tsserver.setup{}
+
+BASH
+npm i -g bash-language-server
+require'lspconfig'.bashls.setup{}
+
+VIM
+npm install -g vim-language-server
+require'lspconfig'.vimls.setup{}

@@ -1,0 +1,1 @@
+sudo npm install -g @angular/language-server vscode-langservers-extracted typescript typescript-language-server

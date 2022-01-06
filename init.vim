@@ -31,6 +31,8 @@ source ~/.config/nvim/luatree/luatree.lua
 source ~/.config/nvim/FTerm/fterm.lua
 " Telescope
 source ~/.config/nvim/telescope/telescope.lua
+" Lualine
+source ~/.config/nvim/lualine/lualine.lua
 
 " *********
 " * Other *

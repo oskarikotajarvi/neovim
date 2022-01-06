@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+
 " Colorscheme
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 " LSP config
@@ -30,5 +31,7 @@ Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'f-person/git-blame.nvim'
 " Lualine
 Plug 'nvim-lualine/lualine.nvim'
+" Auto pairs
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()

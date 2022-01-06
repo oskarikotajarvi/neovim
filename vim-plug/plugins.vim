@@ -26,5 +26,7 @@ Plug 'preservim/nerdcommenter'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+" Git blame
+Plug 'f-person/git-blame.nvim'
 
 call plug#end()

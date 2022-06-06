@@ -41,4 +41,6 @@ Plug 'xiyaowong/nvim-transparent'
 Plug 'ellisonleao/glow.nvim'
 " Diagnostics gutter
 Plug 'folke/trouble.nvim'
+" Formatting
+Plug 'sbdchd/neoformat'
 call plug#end()

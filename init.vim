@@ -15,6 +15,8 @@ source ~/.config/nvim/nerdcommenter/nerdcommenter.vim
 source ~/.config/nvim/telescope/telescope.vim
 " Trouble
 source ~/.config/nvim/trouble/trouble.vim
+" Neoformat
+source ~/.config/nvim/neoformat/neoformat.vim
 
 " *******************
 " * Lua source files *

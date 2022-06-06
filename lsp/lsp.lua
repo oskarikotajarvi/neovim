@@ -39,7 +39,8 @@ end
 -- tsserver: sudo npm install -g typescript typescript-language-server
 -- bashls: sudo npm i -g bash-language-server
 -- vimls: sudo npm install -g vim-language-server
-local servers = {'gopls', 'golangci_lint_ls', 'angularls', 'cssls', 'html', 'tsserver', 'bashls', 'vimls', 'sumneko_lua' }
+-- local servers = {'gopls', 'golangci_lint_ls', 'angularls', 'cssls', 'html', 'tsserver', 'bashls', 'vimls', 'sumneko_lua', 'java_language_server' }
+local servers = {'angularls', 'cssls', 'html', 'tsserver', 'bashls', 'vimls', 'sumneko_lua', 'jdtls'}
 
 local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
 

@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 " Colorscheme
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 " LSP config
+Plug 'williamboman/nvim-lsp-installer',
 Plug 'neovim/nvim-lspconfig'
 " CMP for autocompletion + completion sources
 Plug 'hrsh7th/cmp-nvim-lsp'
@@ -10,6 +11,7 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lua'
 Plug 'ray-x/cmp-treesitter'
 " Vsnip for CMP (required for autocompletion with LSP)
 Plug 'hrsh7th/cmp-vsnip'
@@ -33,5 +35,10 @@ Plug 'f-person/git-blame.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 " Auto pairs
 Plug 'jiangmiao/auto-pairs'
-
+" Make background 'transparent'
+Plug 'xiyaowong/nvim-transparent'
+" Markdown preview
+Plug 'ellisonleao/glow.nvim'
+" Diagnostics gutter
+Plug 'folke/trouble.nvim'
 call plug#end()

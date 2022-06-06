@@ -13,6 +13,8 @@ source ~/.config/nvim/luatree/luatree.vim
 source ~/.config/nvim/nerdcommenter/nerdcommenter.vim
 " Telescope
 source ~/.config/nvim/telescope/telescope.vim
+" Trouble
+source ~/.config/nvim/trouble/trouble.vim
 
 " *******************
 " * Lua source files *
@@ -33,7 +35,10 @@ source ~/.config/nvim/FTerm/fterm.lua
 source ~/.config/nvim/telescope/telescope.lua
 " Lualine
 source ~/.config/nvim/lualine/lualine.lua
-
+" Trouble
+source ~/.config/nvim/trouble/trouble.lua
+" Transparent
+" source ~/.config/nvim/transparent/transparent.lua
 " *********
 " * Other *
 " *********

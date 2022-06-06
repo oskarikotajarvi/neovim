@@ -28,15 +28,15 @@ luafile ~/.config/nvim/cmp/cmp.lua
 " Treesitter
 luafile ~/.config/nvim/treesitter/treesitter.lua
 " Luatree
-source ~/.config/nvim/luatree/luatree.lua
+luafile ~/.config/nvim/luatree/luatree.lua
 " FTerm
-source ~/.config/nvim/FTerm/fterm.lua
+luafile ~/.config/nvim/FTerm/fterm.lua
 " Telescope
-source ~/.config/nvim/telescope/telescope.lua
+luafile ~/.config/nvim/telescope/telescope.lua
 " Lualine
-source ~/.config/nvim/lualine/lualine.lua
+luafile ~/.config/nvim/lualine/lualine.lua
 " Trouble
-source ~/.config/nvim/trouble/trouble.lua
+luafile ~/.config/nvim/trouble/trouble.lua
 " Transparent
 " source ~/.config/nvim/transparent/transparent.lua
 " *********

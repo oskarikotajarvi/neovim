@@ -52,3 +52,5 @@ augroup highlight_yank
     au TextYankPost * silent! lua vim.highlight.on_yank { higroup='IncSearch', timeout=200 }
 augroup END
 
+" Don't automatically comment newline
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o

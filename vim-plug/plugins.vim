@@ -2,6 +2,8 @@ call plug#begin('~/.vim/plugged')
 
 " Colorscheme
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+" File icons
+Plug 'kyazdani42/nvim-web-devicons'
 " LSP config
 Plug 'williamboman/nvim-lsp-installer',
 Plug 'neovim/nvim-lspconfig'
@@ -19,7 +21,6 @@ Plug 'hrsh7th/vim-vsnip'
 " Treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Luatree
-Plug 'kyazdani42/nvim-web-devicons' " for file icons
 Plug 'kyazdani42/nvim-tree.lua'
 " Floating terminal
 Plug 'numToStr/FTerm.nvim'

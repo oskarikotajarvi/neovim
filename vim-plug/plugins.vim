@@ -31,6 +31,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 " Git blame
+Plug 'f-person/git-blame.nvim'
 Plug 'tpope/vim-fugitive'
 " Lualine
 Plug 'nvim-lualine/lualine.nvim'

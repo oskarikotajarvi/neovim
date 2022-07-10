@@ -2,7 +2,8 @@
 let mapleader=" "
 
 " Esc to jj
-imap jj <Esc>
+" imap jj <Esc>
+imap kj <Esc>
 
 " Keep visual mode after indenting with < and >
 vmap < <gv

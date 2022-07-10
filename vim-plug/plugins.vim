@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
 
 " Colorscheme
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+Plug 'ellisonleao/gruvbox.nvim'
 " File icons
 Plug 'kyazdani42/nvim-web-devicons'
 " LSP config

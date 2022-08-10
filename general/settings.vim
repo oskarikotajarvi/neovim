@@ -25,4 +25,4 @@ set updatetime=50
 set cursorline
 set autoread
 set splitright
-set winbar=%m\ %f
+" set winbar=%m\ %f

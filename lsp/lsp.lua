@@ -1,7 +1,3 @@
-require'nvim-lsp-installer'.setup({
-    automatic_installation = true
-})
-
 local nvim_lsp = require('lspconfig')
 
 local on_attach = function(client, bufnr)
@@ -40,7 +36,7 @@ end
 -- bashls: sudo npm i -g bash-language-server
 -- vimls: sudo npm install -g vim-language-server
 -- local servers = {'gopls', 'golangci_lint_ls', 'angularls', 'cssls', 'html', 'tsserver', 'bashls', 'vimls', 'sumneko_lua', 'java_language_server' }
-local servers = {'angularls', 'cssls', 'html', 'tsserver', 'bashls', 'vimls', 'sumneko_lua', 'jdtls'}
+local servers = {'angularls', 'cssls', 'html', 'tsserver', 'bashls', 'vimls', 'sumneko_lua', 'jdtls', 'gopls', 'golangci_lint_ls'}
 
 local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
 

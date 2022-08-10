@@ -14,10 +14,10 @@ require'nvim-tree'.setup {
     update_cwd          = false,
     respect_buf_cwd = true,
 
-    update_to_buf_dir   = {
-        enable = true,
-        auto_open = true,
-    },
+    -- update_to_buf_dir   = {
+    --     enable = true,
+    --     auto_open = true,
+    -- },
 
     actions = {
         open_file = {
@@ -117,7 +117,7 @@ require'nvim-tree'.setup {
         height = 30,
         hide_root_folder = false,
         side = 'left',
-        auto_resize = false,
+        -- auto_resize = false,
         mappings = {
           custom_only = false,
           list = {}

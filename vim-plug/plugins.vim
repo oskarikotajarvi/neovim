@@ -6,7 +6,8 @@ Plug 'ellisonleao/gruvbox.nvim'
 " File icons
 Plug 'kyazdani42/nvim-web-devicons'
 " LSP config
-Plug 'williamboman/nvim-lsp-installer',
+Plug 'williamboman/mason.nvim'
+Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'neovim/nvim-lspconfig'
 " CMP for autocompletion + completion sources
 Plug 'hrsh7th/cmp-nvim-lsp'

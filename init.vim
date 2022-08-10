@@ -25,6 +25,7 @@ source ~/.config/nvim/neoformat/neoformat.vim
 " instructions written inside the files
 " LSP
 luafile ~/.config/nvim/lsp/lsp.lua
+luafile ~/.config/nvim/mason/mason.lua
 " CMP configuration
 luafile ~/.config/nvim/cmp/cmp.lua
 " Treesitter

@@ -40,6 +40,8 @@ luafile ~/.config/nvim/telescope/telescope.lua
 luafile ~/.config/nvim/lualine/lualine.lua
 " Trouble
 luafile ~/.config/nvim/trouble/trouble.lua
+" Colorscheme
+luafile ~/.config/nvim/colorbuddy/colorbuddy.lua
 " Transparent
 " source ~/.config/nvim/transparent/transparent.lua
 " *********
@@ -48,7 +50,7 @@ luafile ~/.config/nvim/trouble/trouble.lua
 " Colorscheme
 set background=dark
 " colorscheme gruvbox
-colorscheme catppuccin
+" colorscheme catppuccin
 " Highlight on yank
 augroup highlight_yank
     autocmd!

@@ -45,3 +45,12 @@ require'trouble'.setup {
     },
     use_diagnostic_signs = false -- enabling this will use the signs defined in your lsp client
 }
+
+-- Keymaps for trouble
+local nnoremap = require('okotajarvi.keymap').nnoremap
+nnoremap( "<leader>xx", "<cmd>TroubleToggle<CR>")
+nnoremap("<leader>xw", "<cmd>TroubleToggle workspace_diagnostics<CR>")
+nnoremap("<leader>xd", "<cmd>TroubleToggle document_diagnostics<CR>")
+nnoremap("<leader>xq", "<cmd>TroubleToggle quickfix<CR>")
+nnoremap("<leader>xl", "<cmd>TroubleToggle loclist<CR>")
+nnoremap("gR", "<cmd>TroubleToggle lsp_references<CR>")

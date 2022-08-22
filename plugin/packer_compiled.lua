@@ -72,167 +72,152 @@ _G.packer_plugins = {
   ["auto-pairs"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/auto-pairs",
-    url = "https://github.com/jiangmiao/auto-pairs"
+    url = "https://github.com/jiangmiao/auto-pairs.git"
   },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
-    url = "https://github.com/akinsho/bufferline.nvim"
+    url = "https://github.com/akinsho/bufferline.nvim.git"
   },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/cmp-buffer",
-    url = "https://github.com/hrsh7th/cmp-buffer"
+    url = "https://github.com/hrsh7th/cmp-buffer.git"
   },
   ["cmp-cmdline"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/cmp-cmdline",
-    url = "https://github.com/hrsh7th/cmp-cmdline"
+    url = "https://github.com/hrsh7th/cmp-cmdline.git"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
-    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp.git"
   },
   ["cmp-nvim-lua"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
-    url = "https://github.com/hrsh7th/cmp-nvim-lua"
+    url = "https://github.com/hrsh7th/cmp-nvim-lua.git"
   },
   ["cmp-path"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/cmp-path",
-    url = "https://github.com/hrsh7th/cmp-path"
+    url = "https://github.com/hrsh7th/cmp-path.git"
   },
   ["cmp-treesitter"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/cmp-treesitter",
-    url = "https://github.com/ray-x/cmp-treesitter"
+    url = "https://github.com/ray-x/cmp-treesitter.git"
   },
   ["cmp-vsnip"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
-    url = "https://github.com/hrsh7th/cmp-vsnip"
-  },
-  ["cobalt2.nvim"] = {
-    loaded = true,
-    path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/cobalt2.nvim",
-    url = "https://github.com/lalitmee/cobalt2.nvim"
-  },
-  ["colorbuddy.nvim"] = {
-    loaded = true,
-    path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
-    url = "https://github.com/tjdevries/colorbuddy.nvim"
+    url = "https://github.com/hrsh7th/cmp-vsnip.git"
   },
   ["git-blame.nvim"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/git-blame.nvim",
-    url = "https://github.com/f-person/git-blame.nvim"
+    url = "https://github.com/f-person/git-blame.nvim.git"
   },
   ["lspsaga.nvim"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
-    url = "https://github.com/glepnir/lspsaga.nvim"
+    url = "https://github.com/glepnir/lspsaga.nvim.git"
   },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/lualine.nvim",
-    url = "https://github.com/nvim-lualine/lualine.nvim"
+    url = "https://github.com/nvim-lualine/lualine.nvim.git"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
-    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+    url = "https://github.com/williamboman/mason-lspconfig.nvim.git"
   },
   ["mason.nvim"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/mason.nvim",
-    url = "https://github.com/williamboman/mason.nvim"
+    url = "https://github.com/williamboman/mason.nvim.git"
   },
   neoformat = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/neoformat",
-    url = "https://github.com/sbdchd/neoformat"
+    url = "https://github.com/sbdchd/neoformat.git"
   },
   nerdcommenter = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/nerdcommenter",
-    url = "https://github.com/preservim/nerdcommenter"
+    url = "https://github.com/preservim/nerdcommenter.git"
   },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/nvim-cmp",
-    url = "https://github.com/hrsh7th/nvim-cmp"
+    url = "https://github.com/hrsh7th/nvim-cmp.git"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
-    url = "https://github.com/neovim/nvim-lspconfig"
-  },
-  ["nvim-transparent"] = {
-    loaded = true,
-    path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/nvim-transparent",
-    url = "https://github.com/xiyaowong/nvim-transparent"
+    url = "https://github.com/neovim/nvim-lspconfig.git"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
-    url = "https://github.com/kyazdani42/nvim-tree.lua"
+    url = "https://github.com/kyazdani42/nvim-tree.lua.git"
   },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+    url = "https://github.com/nvim-treesitter/nvim-treesitter.git"
   },
   ["nvim-ts-autotag"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
-    url = "https://github.com/windwp/nvim-ts-autotag"
+    url = "https://github.com/windwp/nvim-ts-autotag.git"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
-    url = "https://github.com/kyazdani42/nvim-web-devicons"
+    url = "https://github.com/kyazdani42/nvim-web-devicons.git"
   },
-  onebuddy = {
+  ["onedark.nvim"] = {
     loaded = true,
-    path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/onebuddy",
-    url = "https://github.com/Th3Whit3Wolf/onebuddy"
+    path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/navarasu/onedark.nvim.git"
   },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/packer.nvim",
-    url = "https://github.com/wbthomason/packer.nvim"
+    url = "https://github.com/wbthomason/packer.nvim.git"
   },
   ["plenary.nvim"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/plenary.nvim",
-    url = "https://github.com/nvim-lua/plenary.nvim"
+    url = "https://github.com/nvim-lua/plenary.nvim.git"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
-    url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
+    url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim.git"
   },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/telescope.nvim",
-    url = "https://github.com/nvim-telescope/telescope.nvim"
+    url = "https://github.com/nvim-telescope/telescope.nvim.git"
   },
   ["trouble.nvim"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/trouble.nvim",
-    url = "https://github.com/folke/trouble.nvim"
+    url = "https://github.com/folke/trouble.nvim.git"
   },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/vim-fugitive",
-    url = "https://github.com/tpope/vim-fugitive"
+    url = "https://github.com/tpope/vim-fugitive.git"
   },
   ["vim-vsnip"] = {
     loaded = true,
     path = "/home/okotajarvi/.local/share/nvim/site/pack/packer/start/vim-vsnip",
-    url = "https://github.com/hrsh7th/vim-vsnip"
+    url = "https://github.com/hrsh7th/vim-vsnip.git"
   }
 }
 

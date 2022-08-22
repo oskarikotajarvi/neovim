@@ -4,8 +4,7 @@ return require('packer').startup(function()
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
     -- Colorscheme
-    use { 'lalitmee/cobalt2.nvim', requires = 'tjdevries/colorbuddy.nvim' }
-    use { 'Th3Whit3Wolf/onebuddy', rrequires = 'tjdevries/colorbuddy.nvim' }
+    use { 'navarasu/onedark.nvim' }
     -- File icons
     use 'kyazdani42/nvim-web-devicons'
     -- LSP config
@@ -53,6 +52,4 @@ return require('packer').startup(function()
     use 'folke/trouble.nvim'
     -- Formatting
     use 'sbdchd/neoformat'
-    -- Transparent background
-    use 'xiyaowong/nvim-transparent'
 end)

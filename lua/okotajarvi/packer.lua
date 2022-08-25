@@ -32,7 +32,7 @@ return require('packer').startup(function()
     -- Autoclose tags
     use 'windwp/nvim-ts-autotag'
     -- Bufferline
-    use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
+    use { 'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons' }
     -- Luatree
     use 'kyazdani42/nvim-tree.lua'
     -- Nerd commenter (easy commenting)
@@ -40,7 +40,8 @@ return require('packer').startup(function()
     -- Telescope
     use 'nvim-lua/plenary.nvim'
     use 'nvim-telescope/telescope.nvim'
-    use {'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
+    use { 'nvim-telescope/telescope-fzf-native.nvim',
+        run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
     -- Git blame
     use 'f-person/git-blame.nvim'
     use 'tpope/vim-fugitive'

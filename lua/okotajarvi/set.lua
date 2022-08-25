@@ -27,6 +27,6 @@ vim.opt.updatetime = 50
 vim.opt.cursorline = true
 vim.opt.autoread = true
 vim.opt.splitright = true
-vim.opt.jumpoptions="stack"
+vim.opt.jumpoptions = "stack"
 
 vim.g.mapleader = " "

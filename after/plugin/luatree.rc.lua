@@ -1,18 +1,18 @@
 -- each of these are documented in `:help nvim-tree.OPTION_NAME`
-require'nvim-tree'.setup {
-    auto_reload_on_write = true,
-    create_in_closed_folder = true,
+require 'nvim-tree'.setup {
+    auto_reload_on_write               = true,
+    create_in_closed_folder            = true,
     hijack_unnamed_buffer_when_opening = false,
-    ignore_buffer_on_setup = false,
-    sort_by = "name",
-    disable_netrw       = true,
-    hijack_netrw        = true,
-    open_on_setup       = false,
-    ignore_ft_on_setup  = {},
-    open_on_tab         = false,
-    hijack_cursor       = true,
-    update_cwd          = false,
-    respect_buf_cwd = true,
+    ignore_buffer_on_setup             = false,
+    sort_by                            = "name",
+    disable_netrw                      = true,
+    hijack_netrw                       = true,
+    open_on_setup                      = false,
+    ignore_ft_on_setup                 = {},
+    open_on_tab                        = false,
+    hijack_cursor                      = true,
+    update_cwd                         = false,
+    respect_buf_cwd                    = true,
 
     -- update_to_buf_dir   = {
     --     enable = true,
@@ -43,7 +43,7 @@ require'nvim-tree'.setup {
             enable = true,
         },
         icons = {
-            padding = " " ,
+            padding = " ",
             symlink_arrow = " >> ",
             show = {
                 file = true,
@@ -75,7 +75,7 @@ require'nvim-tree'.setup {
                 },
             },
         },
-        special_files = {"README.md", "Makefile", "MAKEFILE"},
+        special_files = { "README.md", "Makefile", "MAKEFILE" },
     },
 
     diagnostics = {
@@ -119,8 +119,8 @@ require'nvim-tree'.setup {
         side = 'left',
         -- auto_resize = false,
         mappings = {
-          custom_only = false,
-          list = {}
+            custom_only = false,
+            list = {}
         },
 
         number = true,

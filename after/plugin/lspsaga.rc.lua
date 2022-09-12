@@ -2,7 +2,9 @@
 -- -- use default config
 -- saga.init_lsp_saga()
 
-require('lspsaga').init_lsp_saga()
+require('lspsaga').init_lsp_saga({
+    finder_request_timeout = 5000
+})
 
 vim.keymap.set("n", "gh", "<cmd>Lspsaga lsp_finder<CR>", { silent = true })
 vim.keymap.set("n", "<leader>ca", "<cmd>Lspsaga code_action<CR>", { silent = true })

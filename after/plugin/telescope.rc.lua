@@ -3,7 +3,7 @@
 require('telescope').setup {
     extensions = {
         fzf = {
-            fuzzy = true, -- false will only do exact matching
+            fuzzy = false, -- false will only do exact matching
             override_generic_sorter = true, -- override the generic sorter
             override_file_sorter = true, -- override the file sorter
             case_mode = "smart_case", -- or "ignore_case" or "respect_case"
@@ -28,3 +28,8 @@ nnoremap("<leader>fh", "<cmd>Telescope help_tags<CR>")
 nnoremap("<leader>gb", "<cmd>Telescope git_branches<CR>")
 nnoremap("<leader>gs", "<cmd>Telescope git_status<CR>")
 nnoremap("<leader>gc", "<cmd> Telescope git_commits<CR>")
+nnoremap("<leader>fs", "<cmd> Telescope grep_string<CR>")
+nnoremap("<leader>fr", "<cmd> Telescope lsp_references<CR>")
+nnoremap("<leader>fd", "<cmd> Telescope diagnostics<CR>")
+nnoremap("<leader>fi", "<cmd> Telescope lsp_implementations<CR>")
+

@@ -1,1 +1,1 @@
-require('plugin-rc.colorscheme.onedark')
+require("plugin-rc.colorscheme.onedark")

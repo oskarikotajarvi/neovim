@@ -1,1 +1,1 @@
-require('plugin-rc.bufferline.bufferline')
+require("plugin-rc.bufferline.bufferline")

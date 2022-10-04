@@ -1,3 +1,5 @@
+" TODO: Get a lua based alternative to this
+
 " Create default mappings
 let g:NERDCreateDefaultMappings = 1
 

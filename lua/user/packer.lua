@@ -47,9 +47,11 @@ return require("packer").startup(function()
 		"nvim-telescope/telescope-fzf-native.nvim",
 		run = "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build",
 	})
-	-- Git blame
+	-- Git stuff
 	use("f-person/git-blame.nvim")
 	use("tpope/vim-fugitive")
+	use("airblade/vim-gitgutter")
+
 	-- Lualine
 	use("nvim-lualine/lualine.nvim")
 	-- Auto pairs

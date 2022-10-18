@@ -34,8 +34,6 @@ return require("packer").startup(function()
 	})
 	-- Autoclose tags
 	use("windwp/nvim-ts-autotag")
-	-- Bufferline
-	use({ "akinsho/bufferline.nvim", tag = "v2.*", requires = "kyazdani42/nvim-web-devicons" })
 	-- Luatree
 	use("kyazdani42/nvim-tree.lua")
 	-- nvim-commenter

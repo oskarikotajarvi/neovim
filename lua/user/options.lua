@@ -3,6 +3,13 @@ vim.g.mapleader = " "
 
 local mapper = require("utilities.option-map")
 
+local function bar()
+	local file_name = "%-.16t"
+	local modified = " %-m"
+
+	return string.format("  %s%s", file_name, modified)
+end
+
 local options = {
 	encoding = "utf-8",
 	fileencoding = "utf-8",
@@ -33,6 +40,7 @@ local options = {
 	splitright = true,
 	jumpoptions = "stack",
 	completeopt = "menuone,noselect",
+	winbar = bar(),
 }
 
 mapper(options)

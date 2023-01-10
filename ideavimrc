@@ -22,7 +22,9 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+map <leader>fg <Action>(FindInPath)
 map <leader>ff <Action>(SearchEverywhere)
+map <leader>fb <Action>(Switcher)
 map <leader>ca <Action>(ShowIntentionActions)
 map <leader>e <Action>(ShowErrorDescription)
 map <S-space> <Action>(GotoNextError)
@@ -30,4 +32,3 @@ nmap <leader>cc <Action>(CommentByLineComment)
 nmap <leader>rn <Action>(RenameElement)
 nmap <leader>tt <Action>(ActivateTerminalToolWindow)
 nmap gi <Action>(GotoImplementation)
-

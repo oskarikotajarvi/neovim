@@ -6,6 +6,7 @@ set commentary
 " Keymaps
 let mapleader = " "
 imap kj <Esc>
+vmap kj <Esc>
 
 set scrolloff=5
 set incsearch
@@ -30,7 +31,7 @@ map <leader>e <Action>(ShowErrorDescription)
 map <S-space> <Action>(GotoNextError)
 nmap <leader>cc <Action>(CommentByLineComment)
 nmap <leader>rn <Action>(RenameElement)
-nmap <leader>tt <Action>(ActivateTerminalToolWindow)
+" nmap <leader>tt <Action>(ActivateTerminalToolWindow)
 nmap gi <Action>(GotoImplementation)
 nmap gu <Action>(ShowUsages)
 nmap ge <Action>(ShowRelatedProblems)
